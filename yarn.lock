@@ -374,7 +374,7 @@ autod@^3.0.1:
     printable "^0.0.3"
     urllib "^2.25.1"
 
-await-event@^2.1.0:
+await-event@^2.0.0, await-event@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/await-event/-/await-event-2.1.0.tgz#78e9f92684bae4022f9fa0b5f314a11550f9aa76"
 
@@ -1924,6 +1924,13 @@ egg-mock@^3.13.0:
     rimraf "^2.6.1"
     supertest "^3.0.0"
     urllib "^2.24.0"
+
+egg-mongoose@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/egg-mongoose/-/egg-mongoose-2.1.1.tgz#7a489627da17567a6847f1bef55b500c60ff2f0b"
+  dependencies:
+    await-event "^2.0.0"
+    mongoose "^4.8.6"
 
 egg-multipart@^2.0.0:
   version "2.0.0"
@@ -3752,7 +3759,7 @@ mongodb@2.2.34:
     mongodb-core "2.1.18"
     readable-stream "2.2.7"
 
-mongoose@^4.13.9:
+mongoose@^4.13.9, mongoose@^4.8.6:
   version "4.13.9"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-4.13.9.tgz#ca4d99aed6e36e87854c2295387e7ea17966cfe3"
   dependencies:

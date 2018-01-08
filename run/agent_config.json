@@ -121,6 +121,10 @@
       "defaultViewEngine": "",
       "mapping": {}
     },
+    "mongoose": {
+      "url": "mongodb://localhost:27017/my-blog",
+      "options": {}
+    },
     "env": "local",
     "name": "myblog",
     "keys": "<String len: 24>",
@@ -135,7 +139,10 @@
       "private": true,
       "dependencies": {
         "egg": "^2.0.0",
-        "egg-scripts": "^2.1.0"
+        "egg-mongoose": "^2.1.1",
+        "egg-scripts": "^2.1.0",
+        "egg-validate": "^1.0.0",
+        "mongoose": "^4.13.9"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -405,7 +412,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\study\\myblog\\node_modules\\egg\\config\\plugin.js",
+      "from": "D:\\study\\myblog\\config\\plugin.js",
       "path": "D:\\study\\myblog\\node_modules\\egg-static",
       "version": "2.0.0"
     },
@@ -419,6 +426,28 @@
       "from": "D:\\study\\myblog\\node_modules\\egg\\config\\plugin.js",
       "path": "D:\\study\\myblog\\node_modules\\egg-view",
       "version": "2.0.0"
+    },
+    "mongoose": {
+      "enable": true,
+      "package": "egg-mongoose",
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\study\\myblog\\config\\plugin.js",
+      "path": "D:\\study\\myblog\\node_modules\\egg-mongoose",
+      "version": "2.1.1"
+    },
+    "validate": {
+      "enable": true,
+      "package": "egg-validate",
+      "name": "validate",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\study\\myblog\\config\\plugin.js",
+      "path": "D:\\study\\myblog\\node_modules\\egg-validate",
+      "version": "1.0.0"
     }
   }
 }

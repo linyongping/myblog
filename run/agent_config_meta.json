@@ -1,6 +1,10 @@
 {
   "keys": "D:\\study\\myblog\\config\\config.default.js",
   "middleware": "D:\\study\\myblog\\config\\config.default.js",
+  "mongoose": {
+    "url": "D:\\study\\myblog\\config\\config.default.js",
+    "options": "D:\\study\\myblog\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js",
     "key": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js",
@@ -132,7 +136,10 @@
     "private": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
       "egg": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
-      "egg-scripts": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+      "egg-mongoose": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "mongoose": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "autod": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
