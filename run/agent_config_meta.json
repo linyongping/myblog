@@ -5,18 +5,9 @@
     "url": "D:\\study\\myblog\\config\\config.default.js",
     "options": "D:\\study\\myblog\\config\\config.default.js"
   },
-  "session": {
-    "maxAge": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js"
-  },
   "security": {
-    "domainWhiteList": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+      "enable": "D:\\study\\myblog\\config\\config.default.js",
       "useSession": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
       "ignoreJSON": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
       "cookieName": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
@@ -25,6 +16,9 @@
       "bodyName": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
       "queryName": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
     },
+    "domainWhiteList": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
       "enable": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
       "value": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
@@ -54,6 +48,12 @@
       "enable": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
       "policy": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
     }
+  },
+  "session": {
+    "maxAge": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
     "shtml": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
