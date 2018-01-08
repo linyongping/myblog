@@ -1,0 +1,257 @@
+{
+  "keys": "D:\\study\\myblog\\config\\config.default.js",
+  "middleware": "D:\\study\\myblog\\config\\config.default.js",
+  "session": {
+    "maxAge": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\study\\myblog\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\study\\myblog\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\study\\myblog\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\study\\myblog\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\study\\myblog\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\study\\myblog\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\study\\myblog\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\study\\myblog\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\study\\myblog\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\study\\myblog\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\study\\myblog\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\study\\myblog\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\study\\myblog\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\study\\myblog\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\study\\myblog\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "D:\\study\\myblog\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\study\\myblog\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\study\\myblog\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\study\\myblog\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\study\\myblog\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\study\\myblog\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\study\\myblog\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\study\\myblog\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\study\\myblog\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "D:\\study\\myblog\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\study\\myblog\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\study\\myblog\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\study\\myblog\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\study\\myblog\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\study\\myblog\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\study\\myblog\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\study\\myblog\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\study\\myblog\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\study\\myblog\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\study\\myblog\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\study\\myblog\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\study\\myblog\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\study\\myblog\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\study\\myblog\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\study\\myblog\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\study\\myblog\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\study\\myblog\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\study\\myblog\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\study\\myblog\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\study\\myblog\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\study\\myblog\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\study\\myblog\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\study\\myblog\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "D:\\study\\myblog\\node_modules\\egg\\config\\config.default.js"
+  }
+}
